@@ -1,5 +1,43 @@
 # Changelog
 
+### WIP
+
+  - Added uk-text-capitalize, uk-text-lowercase and uk-text-uppercase classes
+  - Added headers option to upload component
+  - Added UIkit.Utils.getCssVar utility function
+  - Updated modal + dropdown components to get focus when shown
+  - Updated dragging behavior on infinite sliders
+  - Updated slideshow, slider, slideset and accordion component to update if a new slide/item was added via dom manipulation
+  - Updated icon component to FontAwesome 4.6.3
+  - Fixed slideset showing horizontal scrollbar on animation
+  - Fixed sticky element disappearing on scroll in iOS browsers
+  - Fixed maxDate in datepicker component
+  - Fixed dynamic grid in rtl mode
+
+
+### 2.26.4 (Jul 13, 2016)
+
+  - Added Htmleditor enablescripts option
+  - Removed marked lib / load from a CDN
+  - Fixed slider in rtl mode
+  - Fixed jQuery v.3 switcher + slideshow animation compatibility
+  - Fixed Htmleditor fullscreen mode in fixed container
+  - Fixed prefixer gulp task
+  - Fixed stick wrapper margin in IE
+  - Fixed for Dynamic Grid ```_getSize``` is not a function
+  - Fixed where many requestanimationframes can exist (custom scroll observer)
+  - Fixed dragging items over iframes (sortable/nestable component)
+  - Fixed sortable for Chrome/Windows mobile
+
+### 2.26.3 (May 12, 2016)
+
+  - Added UIkit.Utils.throttle helper function
+  - Updated icon component to FontAwesome 4.6.0
+  - Updated list button action in html mode (html editor)
+  - Removed default ```transition-property: all``` for all uk-form inputs
+  - Fixed fullscreen videos on iOS + lightbox
+  - Fixed links in sortables + nestables on iOS/Windows mobile
+
 ### 2.26.2 (April 06, 2016)
   - Added iframe support for lightbox component
   - Added observe option to data-uk-grid-margin + data-uk-grid-match
